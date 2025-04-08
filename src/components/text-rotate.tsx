@@ -6,7 +6,7 @@ import { TextRotate } from "@/components/ui/text-rotate"
 
 function RotateText() {
   return (
-    <div className="text-2xl sm:text-3xl md:text-5xl flex flex-row items-center font-overusedGrotesk dark:text-muted text-foreground font-light overflow-hidden">
+    <div className="text-2xl sm:text-3xl md:text-5xl flex flex-row items-center font-overusedGrotesk text-stone-800 font-semibold overflow-hidden">
       <LayoutGroup>
         <motion.p className="flex whitespace-pre" layout>
           <motion.span
@@ -21,7 +21,7 @@ function RotateText() {
               "wellness",
               "taste",
               "clean food",
-              "that crunch",
+              "crunch",
               "youself"
             ]}
             mainClassName="text-white px-2 sm:px-2 md:px-3 bg-stone-500 overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg"

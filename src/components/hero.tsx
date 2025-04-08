@@ -3,13 +3,18 @@ import { RotateText } from "./text-rotate";
 import { CtaButton } from "./cta-button";
 import { AvatarCirclesDemo } from "./avatar";
 import { RatingStars } from "./ui/rating";
+import { Leaf } from 'lucide-react';
 
 export default function Hero() {
     return (
         <div className="flex flex-col md:flex-row items-center justify-around w-full min-h-screen px-4 md:px-8 py-12 gap-8 ">
             <div className="w-full md:max-w-2xl">
+                <div className="inline-flex items-center bg-stone-300 px-4 py-2 rounded-full border border-stone-400 mb-2">
+                    <Leaf className="w-4 h-4 text-emerald-600 mr-2" />
+                    <span className="text-emerald-800 text-sm font-medium">100% Natural Ingredients</span>
+                </div>
                 <RotateText />
-                <p className="text-xl md:text-2xl font-medium text-gray-700 max-w-xl mt-6">
+                <p className="text-xl md:text-2xl font-medium text-stone-800 max-w-xl mt-2">
                     Enjoy premium roasted flaxseed snacks, loaded with omega-3s, fiber, and protein — a smart choice for a healthy lifestyle
                 </p>
                 <div className="mt-8 flex flex-col sm:flex-row items-center gap-6">
