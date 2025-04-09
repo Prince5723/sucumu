@@ -14,7 +14,7 @@ export default function Hero() {
                     <span className="text-emerald-800 text-sm font-medium">100% Natural Ingredients</span>
                 </div>
                 <RotateText />
-                <p className="text-xl md:text-2xl font-medium text-stone-800 max-w-xl mt-2">
+                <p className="text-xl md:text-2xl font-medium text-amber-900 max-w-xl mt-2">
                     Enjoy premium roasted flaxseed snacks, loaded with omega-3s, fiber, and protein — a smart choice for a healthy lifestyle
                 </p>
                 <div className="mt-8 flex flex-col sm:flex-row items-center gap-6">
