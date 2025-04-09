@@ -52,7 +52,7 @@ export const WhyChooseUs = () => {
             Why Choose <span className="text-amber-700">Sucumu</span>?
           </h2>
           <p className="text-lg text-amber-700/90 max-w-2xl mx-auto">
-            Nature's goodness in every bite, carefully crafted for your wellbeing with the finest ingredients
+            Nature's goodness in every bite, carefully crafted for your wellbeing with the finest ingredients (Vegetable Oil, Turmeric, Chilli Powder, Zeera Powder, Salt)
           </p>
         </motion.div>
 
