@@ -41,7 +41,7 @@ const DeliveryCoverage = () => {
   ];
 
   return (
-    <section className="py-24 relative overflow-hidden">
+    <section className="py-24 relative overflow-hidden" id='wholesale'>
       {/* Background Pattern */}
       <div className="absolute " />
       
@@ -165,7 +165,7 @@ const DeliveryCoverage = () => {
               <div className="relative">
                 <div className="absolute inset-0 bg-amber-200/20 rounded-[2rem] blur-3xl" />
                 <img
-                  src="https://res.cloudinary.com/dyg1rahpk/image/upload/v1744195390/aiki9wvuzezmqfx0wjxv.png"
+                  src="https://res.cloudinary.com/dyg1rahpk/image/upload/v1744196253/hfblvmlxrgajwhsem1ki.jpg"
                   alt="Delivery Service"
                   className="rounded-[2rem] shadow-2xl w-full aspect-[4/5] object-cover relative"
                 />

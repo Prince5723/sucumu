@@ -22,7 +22,7 @@ const ProductSection = () => {
   };
 
   return (
-    <section className="py-24 relative overflow-hidden">
+    <section className="py-24 relative overflow-hidden" id='products'>
       {/* Decorative background elements */}
       <div className="absolute" />
       <div className="absolute top-0 left-0 w-full h-64  " />
