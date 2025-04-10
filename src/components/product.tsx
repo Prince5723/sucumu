@@ -18,14 +18,14 @@ const ProductSection = () => {
       "Gluten-Free",
       "Vegan Friendly",
     ],
-    sizes: [{ weight: "50 grams", price: 40 }],
+    sizes: [{ weight: "50 Grams", price: 40 }],
   };
 
   return (
     <section className="py-24 relative overflow-hidden">
       {/* Decorative background elements */}
       <div className="absolute" />
-      <div className="absolute top-0 left-0 w-full h-64 bg-gradient-to-b from-amber-50/50 to-transparent" />
+      <div className="absolute top-0 left-0 w-full h-64  " />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <motion.div

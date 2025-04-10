@@ -1,6 +1,7 @@
 import Hero from "@/components/hero";
 import {WhyChooseUs} from "@/components/why-choose-us";
 import {ProductSection} from "@/components/product"
+import DeliveryCoverage from "@/components/delivery-coverage"
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
     <Hero />
     <WhyChooseUs/>
     <ProductSection/>
+    <DeliveryCoverage/>
     </div>
     </>
   );
