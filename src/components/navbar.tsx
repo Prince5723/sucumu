@@ -65,10 +65,15 @@ const Navbar = () => {
 
             {/* Order Button */}
             <div className="hidden md:flex items-center space-x-4">
-              <button className="bg-amber-700 hover:bg-amber-800 text-white px-6 py-2.5 rounded-full font-medium flex items-center gap-2 transition-all duration-300 shadow-lg shadow-amber-700/20 hover:scale-[1.02] cursor-pointer">
+              <a
+                href="https://wa.me/919876543210?text=I%20want%20to%20order"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-amber-700 hover:bg-amber-800 text-white px-6 py-2.5 rounded-full font-medium flex items-center gap-2 transition-all duration-300 shadow-lg shadow-amber-700/20 hover:scale-[1.02] cursor-pointer"
+              >
                 <ShoppingBag className="w-5 h-5" />
                 Order Now
-              </button>
+              </a>
             </div>
 
             {/* Mobile Menu Button */}
@@ -110,10 +115,15 @@ const Navbar = () => {
                     {link.name}
                   </Link>
                 ))}
-                <button className="bg-amber-700 hover:bg-amber-800 text-white px-6 py-3 rounded-xl font-medium flex items-center justify-center gap-2 transition-all duration-300 shadow-lg shadow-amber-700/20 mt-4">
+                <a
+                  href="https://wa.me/919876543210?text=I%20want%20to%20order"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-amber-700 hover:bg-amber-800 text-white px-6 py-3 rounded-xl font-medium flex items-center justify-center gap-2 transition-all duration-300 shadow-lg shadow-amber-700/20 mt-4"
+                >
                   <ShoppingBag className="w-5 h-5" />
                   Order Now
-                </button>
+                </a>
               </div>
             </div>
           </motion.div>

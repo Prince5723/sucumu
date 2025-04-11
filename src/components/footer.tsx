@@ -16,7 +16,7 @@ const Footer = () => {
   const socialLinks = [
     { 
       icon: <Instagram className="w-5 h-5" />, 
-      href: 'https://instagram.com/sucumu',
+      href: 'https://instagram.com/__prince_11__',
       label: '@sucumu'
     },
     { 
@@ -31,8 +31,8 @@ const Footer = () => {
     },
     { 
       icon: <Phone className="w-5 h-5" />, 
-      href: 'tel:+919876543210',
-      label: '+91 98765 43210'
+      href: 'tel:+918539053555',
+      label: '+91 8539053555'
     }
   ];
 
@@ -92,6 +92,7 @@ const Footer = () => {
                 <li key={index}>
                   <a
                     href={link.href}
+                    target='_blank'
                     className="text-amber-700 hover:text-amber-900 flex items-center gap-3 group"
                   >
                     {link.icon}

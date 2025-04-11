@@ -7,7 +7,7 @@ import { Leaf } from 'lucide-react';
 
 export default function Hero() {
     return (
-        <div className="flex flex-col md:flex-row items-center justify-around w-full min-h-screen px-4 md:px-8 py-12 gap-8">
+        <div className="flex flex-col md:flex-row items-center justify-around w-full min-h-screen px-4 md:px-8 pt-28 md:pt-32 pb-12 gap-8">
             <div className="w-full md:max-w-2xl">
                 <div className="inline-flex items-center bg-stone-300 px-4 py-2 rounded-full border border-stone-400 mb-2">
                     <Leaf className="w-4 h-4 text-emerald-600 mr-2" />
