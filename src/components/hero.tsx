@@ -17,18 +17,18 @@ export default function Hero() {
                 <p className="text-xl md:text-2xl font-medium text-amber-900 max-w-xl mt-2">
                     Enjoy premium roasted flaxseed snacks, loaded with omega-3s, fiber, and protein — a smart choice for a healthy lifestyle
                 </p>
-                <div className="mt-8 flex flex-col sm:flex-row items-center gap-6">
+                <div className="mt-8 flex items-center gap-6">
                     <div>
                         <CtaButton />
                     </div>
-                    <div className="flex items-center gap-4 mt-6 sm:mt-0">
+                    <div className="flex items-center gap-4 mt-2 sm:mt-0 ">
                         <AvatarCirclesDemo />
                         <div>
-                            <div className="flex items-center gap-2">
+                            <div className="hidden md:flex items-center gap-2 ">
                                 <RatingStars rating={5} />
                                 <p className="text-lg font-semibold text-gray-800">4.8</p>
                             </div>
-                            <p className="text-md text-gray-600">from 1000+ <span className="underline cursor-pointer">reviews</span></p>
+                            <p className="text-md text-gray-600 hidden md:block">from 1000+ <span className="underline cursor-pointer">reviews</span></p>
                         </div>
                     </div>
                 </div>

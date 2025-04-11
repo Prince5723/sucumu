@@ -59,7 +59,7 @@ const DeliveryCoverage = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-amber-900 mt-4 mb-6 leading-tight">
             Bringing Nature's Goodness to<br />Your Doorstep
           </h2>
-          <div className="flex justify-center gap-6 mt-8">
+          <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6 mt-8">
             {additionalFeatures.map((feature, index) => (
               <motion.div
                 key={index}
@@ -67,10 +67,10 @@ const DeliveryCoverage = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="flex items-center gap-2 text-amber-700 bg-amber-50 px-4 py-2 rounded-full"
+                className="flex items-center justify-center gap-2 text-amber-700 bg-amber-50 px-6 py-3 rounded-full w-full sm:w-auto"
               >
                 {feature.icon}
-                <span className="font-medium">{feature.text}</span>
+                <span className="font-medium whitespace-nowrap">{feature.text}</span>
               </motion.div>
             ))}
           </div>
