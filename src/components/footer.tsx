@@ -26,8 +26,8 @@ const Footer = () => {
     },
     { 
       icon: <Mail className="w-5 h-5" />, 
-      href: 'mailto:contact@sucumu.com',
-      label: 'contact@sucumu.com'
+      href: 'mailto:sudhaculture53@gmail.com',
+      label: 'sudhaculture53@gmail.com'
     },
     { 
       icon: <Phone className="w-5 h-5" />, 

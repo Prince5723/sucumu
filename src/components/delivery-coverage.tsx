@@ -42,9 +42,8 @@ const DeliveryCoverage = () => {
 
   return (
     <section className="py-24 relative overflow-hidden" id='wholesale'>
-      {/* Background Pattern */}
       <div className="absolute " />
-      
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -114,7 +113,6 @@ const DeliveryCoverage = () => {
           className="bg-gradient-to-br from-amber-50 to-amber-100/50 rounded-[2.5rem] p-12 shadow-xl relative overflow-hidden"
         >
           <div className="absolute " />
-          
           <div className="relative">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
@@ -152,12 +150,17 @@ const DeliveryCoverage = () => {
                     <h4 className="font-bold text-amber-900 text-lg mb-4">Contact for Wholesale</h4>
                     <div className="flex items-center gap-3 text-amber-700">
                       <Phone className="w-5 h-5 text-amber-500" />
-                      <span className="font-medium">+91 98765 43210</span>
+                      <span className="font-medium">+91 8539053555</span>
                     </div>
-                    <button className="mt-6 w-full bg-amber-700 hover:bg-amber-800 text-white px-8 py-4 rounded-xl font-medium flex items-center justify-center gap-2 transition-all duration-300 shadow-lg shadow-amber-700/20 hover:scale-[1.02]">
+                    <a
+                      href="https://wa.me/8539053555?text=Hi%2C%20I%20am%20interested%20in%20your%20wholesale%20products.%20Please%20share%20more%20details."
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-6 w-full bg-amber-700 hover:bg-amber-800 text-white px-8 py-4 rounded-xl font-medium flex items-center justify-center gap-2 transition-all duration-300 shadow-lg shadow-amber-700/20 hover:scale-[1.02] cursor-pointer"
+                    >
                       <Package className="w-5 h-5" />
                       Request Wholesale Quote
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -169,7 +172,6 @@ const DeliveryCoverage = () => {
                   alt="Delivery Service"
                   className="rounded-[2rem] shadow-2xl w-full aspect-[4/5] object-cover relative"
                 />
-                
               </div>
             </div>
           </div>
