@@ -33,7 +33,7 @@ export const WhyChooseUs = () => {
   ];
 
   return (
-    <section className="relative py-16 overflow-hidden" id='about'>
+    <section className="relative py-16 overflow-hidden" id='benifits'>
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
         <motion.div 
