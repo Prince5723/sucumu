@@ -5,12 +5,12 @@ import { Truck, Store, Package, MapPin, Building2, Phone, Clock, Shield, Sparkle
 
 const DeliveryCoverage = () => {
   const locations = [
-    { name: "Delhi", deliveryTime: "2-3 hours" },
-    { name: "Noida", deliveryTime: "3-4 hours" },
-    { name: "Gurgaon", deliveryTime: "3-4 hours" },
-    { name: "Faridabad", deliveryTime: "4-5 hours" },
-    { name: "Ghaziabad", deliveryTime: "3-4 hours" },
-    { name: "Greater Noida", deliveryTime: "4-5 hours" }
+    { name: "Delhi"},
+    { name: "Noida"},
+    { name: "Gurgaon"},
+    { name: "Faridabad"},
+    { name: "Ghaziabad"},
+    { name: "Greater Noida"}
   ];
 
   const features = [
@@ -136,10 +136,6 @@ const DeliveryCoverage = () => {
                       <div className="flex items-center gap-3 text-amber-900 font-medium mb-2">
                         <MapPin className="w-4 h-4 text-amber-500" />
                         {location.name}
-                      </div>
-                      <div className="text-sm text-amber-600 flex items-center gap-2">
-                        <Clock className="w-4 h-4" />
-                        {location.deliveryTime}
                       </div>
                     </motion.div>
                   ))}
