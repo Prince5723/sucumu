@@ -8,6 +8,7 @@ import Image from 'next/image';
 const Footer = () => {
   const navLinks = [
     { name: 'Home', href: '/' },
+    { name: 'Benefits', href: '#benefits' },
     { name: 'About Us', href: '#about' },
     { name: 'Products', href: '#products' },
     { name: 'Wholesale', href: '#wholesale' },
