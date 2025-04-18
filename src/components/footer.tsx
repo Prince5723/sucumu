@@ -122,14 +122,10 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-amber-200 pt-8 mt-12">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-4">
             <div className="flex items-center gap-2 text-amber-700">
               <Leaf className="w-5 h-5" />
               <span>© 2024 Sucumu. All rights reserved.</span>
-            </div>
-            <div className="flex gap-8 text-amber-700">
-              <Link href="/privacy" className="hover:text-amber-900">Privacy Policy</Link>
-              <Link href="/terms" className="hover:text-amber-900">Terms of Service</Link>
             </div>
           </div>
         </div>

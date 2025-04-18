@@ -35,7 +35,7 @@ const DeliveryCoverage = () => {
   ];
 
   const additionalFeatures = [
-    { icon: <Clock className="w-5 h-5" />, text: "Same Day Delivery" },
+    { icon: <Clock className="w-5 h-5" />, text: "Delivery in 24 hours" },
     { icon: <Shield className="w-5 h-5" />, text: "Quality Guaranteed" },
     { icon: <Package className="w-5 h-5" />, text: "Secure Packaging" }
   ];
