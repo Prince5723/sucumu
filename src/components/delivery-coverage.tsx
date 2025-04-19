@@ -29,13 +29,13 @@ const DeliveryCoverage = () => {
     {
       icon: <Truck className="w-8 h-8" />,
       title: "Express Delivery",
-      description: "Fast and reliable delivery service across Delhi NCR region",
+      description: "Fast and reliable delivery service across India",
       highlight: "Free on Wholesale"
     }
   ];
 
   const additionalFeatures = [
-    { icon: <Clock className="w-5 h-5" />, text: "Delivery in 24 hours" },
+    { icon: <Clock className="w-5 h-5" />, text: "Delivery in 48 hours" },
     { icon: <Shield className="w-5 h-5" />, text: "Quality Guaranteed" },
     { icon: <Package className="w-5 h-5" />, text: "Secure Packaging" }
   ];
@@ -53,7 +53,7 @@ const DeliveryCoverage = () => {
         >
           <div className="inline-flex items-center gap-2 bg-amber-100/50 px-4 py-2 rounded-full mb-4">
             <Sparkles className="w-5 h-5 text-amber-600" />
-            <span className="text-amber-700 font-medium">Serving Delhi NCR</span>
+            <span className="text-amber-700 font-medium">Serving Accross India</span>
             <Sparkles className="w-5 h-5 text-amber-600" />
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-amber-900 mt-4 mb-6 leading-tight">
@@ -121,7 +121,7 @@ const DeliveryCoverage = () => {
                   <span className="font-medium text-amber-700">Delivery Network</span>
                 </div>
                 <h3 className="text-3xl font-bold text-amber-900 mb-8">
-                  Fast Delivery Across NCR
+                  Fast Delivery Across NCR - 48 Hours
                 </h3>
                 <div className="grid grid-cols-2 gap-6">
                   {locations.map((location, index) => (
