@@ -127,117 +127,62 @@ return (
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* Founder */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            whileHover={{ y: -5 }}
-            className="group"
-          >
-            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-b from-amber-100/0 to-amber-100/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-              <div className="relative">
-                <div className="mb-4 rounded-xl overflow-hidden">
-                  <img
-                    src="/sudha-devi.jpeg"
-                    alt="Sudha Devi"
-                    className="w-full aspect-square object-fit transform group-hover:scale-105 transition-transform duration-500"
-                  />
-                </div>
-                <h4 className="text-xl font-bold text-amber-900 mb-2">Sudha Devi</h4>
-                <p className="text-amber-700 font-medium mb-1">Founder</p>
-                <p className="text-amber-600/90 text-sm">
-                  Started Sucumu from her home kitchen with the goal of making wellness accessible to all.
-                </p>
-              </div>
-            </div>
-          </motion.div>
-
-          {/* Co-founders */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
-            whileHover={{ y: -5 }}
-            className="group"
-          >
-            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-b from-amber-100/0 to-amber-100/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-              <div className="relative">
-                <div className="mb-4 rounded-xl overflow-hidden">
-                  <img
-                    src="/mukesh.jpeg"
-                    alt="Mukesh Kumar"
-                    className="w-full aspect-square object-cover transform group-hover:scale-105 transition-transform duration-500"
-                  />
-                </div>
-                <h4 className="text-xl font-bold text-amber-900 mb-2">Mukesh Kumar</h4>
-                <p className="text-amber-700 font-medium mb-1">CEO & Co-founder</p>
-                <p className="text-amber-600/90 text-sm">
-                  A mechanical engineer who left his corporate job to establish SUCUMU as a formal company.
-                </p>
-              </div>
-            </div>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.2 }}
-            whileHover={{ y: -5 }}
-            className="group"
-          >
-            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-b from-amber-100/0 to-amber-100/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-              <div className="relative">
-                <div className="mb-4 rounded-xl overflow-hidden">
-                  <img
-                    src="/rakesh.jpeg"
-                    alt="Rakesh Kumar"
-                    className="w-full aspect-square object-cover transform group-hover:scale-105 transition-transform duration-500"
-                  />
-                </div>
-                <h4 className="text-xl font-bold text-amber-900 mb-2">Rakesh Kumar</h4>
-                <p className="text-amber-700 font-medium mb-1">Co-founder</p>
-                <p className="text-amber-600/90 text-sm">
-                  Joined his brother to help build their mother's vision into a recognized brand.
-                </p>
-              </div>
-            </div>
-          </motion.div>
-
-          {/* Manish Sharma - New Addition */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.3 }}
-            whileHover={{ y: -5 }}
-            className="group"
-          >
-            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-b from-amber-100/0 to-amber-100/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-              <div className="relative">
-                <div className="mb-4 rounded-xl overflow-hidden">
-                  <img
-                    src="manish-sharma.jpeg"
-                    alt="Manish Sharma"
-                    className="w-full aspect-square object-cover transform group-hover:scale-105 transition-transform duration-500"
-                  />
-                </div>
-                <h4 className="text-xl font-bold text-amber-900 mb-2">Manish Sharma</h4>
-                <p className="text-amber-700 font-medium mb-1">Production Head</p>
-                <p className="text-amber-600/90 text-sm">
-                  A family friend who oversees the production and packaging, ensuring quality at every step.
-                </p>
-              </div>
-            </div>
-          </motion.div>
+        <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+  {/* Founder */}
+  <motion.div
+    initial={{ opacity: 0, y: 20 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true }}
+    whileHover={{ y: -5 }}
+    className="group"
+  >
+    <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-4 shadow-lg relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-b from-amber-100/0 to-amber-100/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+      <div className="relative">
+        <div className="mb-3 rounded-xl overflow-hidden">
+          <img
+            src="/sudha-devi.jpeg"
+            alt="Sudha Devi"
+            className="w-full aspect-square object-fit transform group-hover:scale-105 transition-transform duration-500"
+          />
         </div>
+        <h4 className="text-lg font-bold text-amber-900 mb-1">Sudha Devi</h4>
+        <p className="text-amber-700 font-medium mb-1">Founder</p>
+        <p className="text-amber-600/90 text-sm">
+          Started Sucumu from her home kitchen with a goal of accessible wellness.
+        </p>
+      </div>
+    </div>
+  </motion.div>
+  
+  {/* Manish Sharma */}
+  <motion.div
+    initial={{ opacity: 0, y: 20 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true }}
+    transition={{ delay: 0.3 }}
+    whileHover={{ y: -5 }}
+    className="group"
+  >
+    <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-4 shadow-lg relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-b from-amber-100/0 to-amber-100/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+      <div className="relative">
+        <div className="mb-3 rounded-xl overflow-hidden">
+          <img
+            src="manish-sharma.jpeg"
+            alt="Manish Sharma"
+            className="w-full aspect-square object-cover transform group-hover:scale-105 transition-transform duration-500"
+          />
+        </div>
+        <h4 className="text-lg font-bold text-amber-900 mb-1">Manish Sharma</h4>
+        <p className="text-amber-700 font-medium mb-1">Production Head</p>
+        <p className="text-amber-600/90 text-sm">
+          Oversees production and packaging, ensuring quality at every step.
+        </p>
+      </div>
+    </div>
+  </motion.div>
+</div>
       </div>
     </div>
 

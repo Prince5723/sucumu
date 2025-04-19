@@ -38,7 +38,7 @@ const Footer = () => {
   ];
 
   const locations = [
-    'Delhi', 'Noida', 'Gurgaon', 'Faridabad', 'Greater Noida', 'Ghaziabad'
+    'Delhi', 'Punjab',  'Bihar', 'UP', 'Jharkhand', 'Rajasthan', 'Gujarat', 'Maharashtra', 'Kerala', 'Orrisa'
   ];
 
   return (
@@ -106,7 +106,7 @@ const Footer = () => {
 
           {/* Service Areas */}
           <div>
-            <h3 className="text-lg font-bold text-amber-900 mb-6">Service Areas</h3>
+            <h3 className="text-lg font-bold text-amber-900 mb-6">Delivering Accross India</h3>
             <div className="flex flex-wrap gap-2">
               {locations.map((location, index) => (
                 <div
