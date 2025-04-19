@@ -18,7 +18,9 @@ const ProductSection = () => {
       "Gluten-Free",
       "Vegan Friendly",
     ],
-    sizes: [{ weight: "50 Grams", price: 40 }],
+    sizes: [{ weight: "50 Grams", price: 60 },
+      { weight: "100 Grams", price: 100 },
+    ],
   };
 
   return (
