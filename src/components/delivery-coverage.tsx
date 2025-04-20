@@ -10,7 +10,7 @@ const DeliveryCoverage = () => {
     { name: "Gurgaon"},
     { name: "Faridabad"},
     { name: "Ghaziabad"},
-    { name: "Greater Noida"}
+    { name: "Noida"}
   ];
 
   const features = [
@@ -133,7 +133,7 @@ const DeliveryCoverage = () => {
                       transition={{ delay: index * 0.1 }}
                       className="bg-white/80 backdrop-blur-sm rounded-2xl p-4 shadow-lg"
                     >
-                      <div className="flex items-center gap-3 text-amber-900 font-medium mb-2">
+                      <div className="flex items-center gap-3 text-amber-900 font-medium">
                         <MapPin className="w-4 h-4 text-amber-500" />
                         {location.name}
                       </div>
