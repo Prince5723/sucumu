@@ -1,0 +1,16 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://sucumu.com/sitemap.xml
+
+# Disallow admin and private routes
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /_next/
+Disallow: /static/
+
+# Crawl-delay for all bots
+Crawl-delay: 10 
