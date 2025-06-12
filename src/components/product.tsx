@@ -128,7 +128,7 @@ const ProductSection = () => {
             {/* WhatsApp Add to Cart */}
             <div className="pt-6">
               <a
-                href={`https://wa.me/8539053555?text=Hi,%20I'm%20interested%20in%20buying%20${encodeURIComponent(
+                href={`https://wa.me/8700398984?text=Hi,%20I'm%20interested%20in%20buying%20${encodeURIComponent(
                   product.name
                 )}%20(${product.sizes[0].weight})%20for%20Rs%20${product.sizes[0].price}.`}
                 target="_blank"

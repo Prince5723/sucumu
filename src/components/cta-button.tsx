@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 function CtaButton() {
   function handleButtonClick() {
-    const phoneNumber = "8539053555"; // Replace with your phone number (with country code)
+    const phoneNumber = "8700398984"; // Replace with your phone number (with country code)
     const message = "Hi! I’m interested in ordering your roasted flaxseed snacks."; // Customize this
     const encodedMessage = encodeURIComponent(message);
     const url = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;

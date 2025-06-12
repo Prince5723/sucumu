@@ -32,8 +32,8 @@ const Footer = () => {
     },
     { 
       icon: <Phone className="w-5 h-5" />, 
-      href: 'tel:+918539053555',
-      label: '+91 8539053555'
+      href: 'tel:+918700398984',
+      label: '+91 8700398984'
     }
   ];
 
